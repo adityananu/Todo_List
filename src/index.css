@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Shantell+Sans:ital,wght@1,300&display=swap');
+h1{
+  font-family: 'Lora', serif;
+  font-family: 'Shantell Sans', cursive;
+  padding-left: 35%;
+  border-bottom: 2px solid rgb(67, 67, 243);
+  padding-bottom: 4px;
+}
+input{
+  font-family: 'Gloock', serif;
+}
+img{
+  height: 25px;
+  padding-right: 3px ;
+}
+.card{
+  display: flex;
+  justify-content:center ;
+  height: 650px;
+}
+.card_sub:hover{
+  height: 590px;
+}
+.card_sub{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transition: height 2s;
+  transition-timing-function: ease;
+  background-color: rgb(210, 166, 252);
+  height: 78px;
+  width: 600px;
+  margin-top: 15px;
+  font-family: 'Gloock', serif;
+  box-shadow: 5px 5px 8px rgba(53, 53, 216, 0.877), 10px 10px 8px rgba(253, 178, 178, 0.432), 15px 15px 8px rgba(246, 253, 246, 0.322);
+}
+.component{
+  background-color: rgba(112, 54, 189, 0.767);
+  height: auto;
+  color: white;
+  width: 490px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3px;
+  box-shadow: 3px 3px 10px rgb(17, 14, 14);
+  margin-top: 5px;
+}
+.textTag{
+  outline-style: none;
+  border: none;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(43, 14, 14, 0.781);
+  color: rgb(255, 255, 255);
+  padding: 0px 9px;
+  box-shadow: 5px 5px 10px rgb(17, 14, 14);
+
+}
+.toBe{
+  outline-style: none;
+  border: none;
+  height: 2rem;
+  border-radius: 10px;
+  padding: 3px 15px;
+  background-color: rgba(13, 13, 245, 0.781);
+  color: aliceblue; 
+   font-family: 'Gloock', serif;
+   box-shadow: 5px 5px 10px rgb(7, 7, 7);
+
+}
+
+.only{
+  outline-style: none;
+  border: none;
+  height: 2rem;
+  border-radius: 10px;
+  padding: 3px 15px;
+  background-color: rgba(233, 14, 14, 0.781);
+  color: aliceblue; 
+   font-family: 'Gloock', serif;
+}
+
+.division{
+  margin-top: 10px;
+}
